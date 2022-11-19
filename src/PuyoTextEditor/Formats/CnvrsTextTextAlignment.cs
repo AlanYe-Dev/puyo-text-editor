@@ -24,5 +24,11 @@ namespace PuyoTextEditor.Formats
         /// </summary>
         [XmlEnum("right")]
         Right = 2,
+        
+        /// <summary>
+        /// New value for Sonic Frontiers
+        /// </summary>
+        [XmlEnum("sfrvalue")]
+        Sfrvalue = 3,
     }
 }
